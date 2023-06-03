@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="shopbansach.css">
+    <script src="zoomsl.js"></script>
+    <title>Trang cá nhân</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="http://bookish.vn/">BOOKISH.VN |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://komo.vn/chuyen-de/">APP KOMO+ |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://nhasachphuongnam.com/vi/phieu-qua-tang-phuong-nam.html">PHIẾU QUÀ TẶNG PHƯƠNG NAM |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gioithieubanthan.html">GIỚI THIỆU BẢN THÂN</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div id="wrapper1">
+        <div class="header1">
+            <nav class="container1">
+                <a href="shopbansach.html" class="logo">
+                    <img src="SACH/Logo_PN.jpg" alt="">
+                    </img>
+                </a>
+                <p class="sdt">Hotline: 1900 6656 <br> 094.985.4605 (giờ hành chính)</p>
+                <form action="trangcanhan.html" name="search_form" method="get" class="cm-processed-form">
+                   
+                    <input type="text" name="hint_q" value="" id="search_input" title="Harry Potter" placeholder="Bạn tìm gì ..." class="ty-search-block__input cm-hint" fdprocessedid="u12wj">
+            
+                    <button type="submit" class="head-search-i" title="Tìm kiếm">
+                        <i class="head-search-i-icon fa-solid fa-magnifying-glass"></i></button>
+                    <button type="submit" class="heart" >
+                        <i class="fa-solid fa-heart " ></i></i></button>
+                        <button type="submit" class="user">
+                            <a href="trangcanhan.html" style="color:#434343;"><i class="fa-solid fa-user " ></i></i></button></a>
+                                <a onclick="showcart()" ><i class=" cart fa-solid fa-cart-shopping" style="cursor: pointer;"></i>  <span id="countsp"> 0 </span></a>
+                        </button>
+                        
+                    </form>  
+                </nav>
+                <div id="tongle"><i class="fa-solid fa-bars"></i></div>
+                <div class="container2">
+                    <ul id="menu1">
+                        <li><a href="Sachtiengviet.html">SÁCH TIẾNG VIỆT</a>
+                            <ul class="sub-menu1">
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>  Sách giáo khoa</a></li>   
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i >   Văn học</a></li>   
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>  Kinh tế/ Kinh doanh</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>  Thiếu nhi</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Kỹ Năng/Sống đẹp</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Sachtienganh.html">ENGLISH BOOK</a>
+                            <ul class="sub-menu1">
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Fiction</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Business & Economics</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Self-help & Psychology</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Children’s Books</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Scholastic</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Business Corner</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="">ƯU ĐÃI HOT</a>
+                            <ul class="sub-menu1">
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Sách Tiếng Việt</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   MC Books - Giảm 20%</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Đồ Chơi Happy Time</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>   Đồ Chơi Việt Tinh Anh</a></li>
+                               
+                            </ul>
+                        </li>
+                        
+                    </ul>
+            </div>
+            </div>
+
+
+            <div class="container mt-5" >
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h1 style="color:#dd4b39">Thông tin đăng nhập:</h1>
+                    <h5 class="user">Tên đăng nhập: <script>document.write(sessionStorage.user); sessionStorage.removeItem("user")</script></h5>
+                    <h3 class="mt-4">Những trang nổi bật: </h3>
+                    <br>
+                    <h5 class="dangnhap"><a href="login.html">đăng nhập</a> hoặc<a href="dangki.html"> đăng ký</a></h5>
+                    <ul class="nav nav-pills flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="shopbansach.html">shopbansach.vn</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Sachtiengviet.html">Sách tiếng việt</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Sachtienganh.html">Sách tiếng anh</a>
+                      </li>
+                      
+                    </ul>
+                    <hr class="d-sm-none">
+                  </div>
+                  <div class="col-sm-8">
+                    <a href="" ><img src="img/banner.jpg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+        </div>    
+       <footer style="background-color: rgba(255,153,0,0.8); color: #1a0606">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-5">
+                    <hr class="light">
+                    <h5>VỀ CHÚNG TÔI</h5>
+                    <hr class="light">
+                    <p>© 2023 - Bản quyền của Công Ty Cổ Phần Văn Hóa Phương Nam - nhasachphuongnam.com
+                        <br>
+                        Giấy chứng nhận Đăng ký Kinh doanh số 0301860552 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 15/08/2019</p>
+                    <br>
+                    <p>Giới thiệu &emsp; Tuyển dụng &emsp;  Hợp tác</p>
+                    <h6> Công Ty Cổ Phần Văn Hóa Phương Nam </h6>
+                </div>
+                <div class="col-md-2">
+                    <hr class="light">
+                    <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                    <hr class="light">
+                    <p>Các Câu Hỏi Thường Gặp</p>
+                    <p>Chính Sách Đổi/Trả Hàng</p>
+                    <p>Quy Định Viết Bình Luận</p>
+                   
+                </div>
+                <div class="col-md-2">
+                    <hr class="light">
+                    <h5>TÀI KHOẢN CỦA TÔI</h5>
+                    <hr class="light">
+                    <p>Đăng nhập</p>
+                    <p>Tạo tài khoản</p>
+                    <p>Danh Sách Yêu Thích</p>
+                    <p>Danh Sách So Sánh</p>
+                </div>
+                <div class="col-md-3">
+                    <hr class="light">
+                    <h6>Theo dõi nhasachphuongnam</h6>
+                    <hr class="light">
+                    <div class="container-fluid padding">
+                    <div class="row text-center padding">
+                    <div class="col-12">
+                    </div>
+                  <div class="col-12 social padding" style="font-size: 30px; padding: 30px;">
+                        <a href="#" style="color: #3b5998; padding: 10px;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="color: #00aced; padding: 10px;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="color: #dd4b39; padding: 10px;"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" style="color: #bb0000; padding: 10px;"><i class="fab fa-youtube"></i></a>
+                  </div>
+              </div>
+          </div>
+                </div>
+            </div>
+        </div>
+  </footer>
+</body>
+</html> 

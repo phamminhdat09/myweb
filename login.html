@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>lognin</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="wrapper">
+        <div class="logo">  
+            <img src="" alt="">
+        </div>
+        <div class="header">
+            <h2>Đăng nhập để mua</h2>
+        </div>
+        <form method="post" style=" padding: 10px 10px;" name="F">
+            <div class="content">
+                <label for=""><b>Tên đăng nhập:</b></label><br>
+                <input type="text" name="name" id="name" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
+                <span id="nameError"></span>
+            </div>
+            <div class="content">
+                <label for=""><b>Password:</b></label><br>
+                <input type="password" name="Password" id="Password"><br>
+                <span id="PasswordError"></span>
+            </div>
+            <div class="login">
+           <center><input type="button" class="btn-sub" value="Đăng nhập"style=" height:40px; width:280px; background-color: #1877f2;cursor: pointer;color:#FFF;border-radius: 6px;"onclick="kiemtra(); return false;"></center>
+            </div>
+            <div class="content1">
+                <div class="content1a"></div>
+                <div class="content1b">HOẶC</div>
+                <div class="content1a"></div>
+            </div>
+            <button class="content2"><i class="fa-brands fa-facebook"></i> Đăng nhập bằng Facebook</button>
+            <div class="content3">
+                Bạn chưa có tài khoản ư? <a href="dangki.html">Đăng ký </a>
+               </div>
+        </form>
+        </div>
+    <script src="zoomsl.js">
+
+    </script>
+</body>
+</html> 

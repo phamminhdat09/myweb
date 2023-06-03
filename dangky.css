@@ -1,0 +1,127 @@
+body{
+    background-image: url(SACH/2964938.jpg);
+    background-size: cover;
+}
+.wrapper{
+    margin-top: 30px;
+    padding: 30px 30px ;
+    width: 340px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: white;
+}
+.logo img{
+    width: 300px;
+    height: 100px;
+}
+.form1{
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+.form2{
+    border: 1px solid transparent;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 10px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.form3{
+    margin: 10px 20px 18px;
+    display: flex;
+}
+.form3a{
+    background-color: #dbdbdb;
+    flex-grow: 1;
+    height: 1px;
+    position: relative;
+    top: 0.45em;
+}
+.form3b{
+    color: #8e8e8e;
+    font-size: 13px; 
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 5px;
+    text-transform: uppercase;
+    position: relative;
+}
+.form4 input{
+    height: 36px;
+    width: 300px;
+    margin: 4px 0px;
+    background: #fafafa;
+    border: 0.5px solid rgb(179, 179, 179);
+    border-radius: 3px;
+}
+.form5 input{
+    height: 36px;
+    width: 300px;
+    margin: 4px 0px;
+    background: #fafafa;
+    border: 0.5px solid rgb(179, 179, 179);
+    border-radius: 3px;
+}
+.form6 input{
+    height: 36px;
+    width: 300px;
+    margin: 4px 0px;
+    background: #fafafa;
+    border: 0.5px solid rgb(179, 179, 179);
+    border-radius: 3px;
+}
+.form7 input{
+    height: 36px;
+    width: 300px;
+    margin: 4px 0px;
+    background: #fafafa;
+    border: 0.5px solid rgb(179, 179, 179);
+    border-radius: 3px;
+}
+.form8{
+    font-size: 16px;
+    color: #8e8e8e;
+    margin: 10px 10px;
+}
+.form8 a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 16px;
+}
+.form9{
+    font-size: 16px;
+    color: #8e8e8e;
+    margin: 10px 10px;
+}
+.form9 a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 16px;
+}
+.form10 input{
+    margin: 10px 0;
+    padding: 10px 100px;
+    background: #0095f6;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.form10 input:hover{
+    opacity: 0.8;
+}
+.container span{
+    color: red;
+}
+.btn-sub:hover{
+        opacity: 0.8;
+    }
